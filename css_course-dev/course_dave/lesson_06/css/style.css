@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: "Itim", cursive;
+}
+
+p {
+    text-align: justify;
+}
+
+input, button {
+    font: inherit;
+}
