@@ -11,3 +11,25 @@ body {
   columns: 4 250px;
   column-rule: 3px solid #333;
 }
+
+.columns h2{
+  margin-top: 0;
+  background-color: #333;
+  padding: 1rem;
+  color: #fff;
+  padding: 1rem;
+  break-inside: avoid;
+  /* break-before: column; */
+}
+
+.columns .quote {
+  margin-top: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  color: #333;
+  column-span: all;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
