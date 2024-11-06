@@ -11,9 +11,11 @@ body {
 
 header {
     display: flex;
+    position: sticky;
+    top: 0;
     padding: 1rem;
     margin-bottom: 2rem;
-    background-color: yellow;
+    background-color: rgb(255, 255, 105);
     border: 2px solid;
     border-radius: 1rem;
     justify-content: space-between;
@@ -60,4 +62,9 @@ li a.focus {
 
 .logo img {
     border-radius: 8px;
+}
+
+.end {
+    margin: 20px;
+    font-size: 2rem;
 }
