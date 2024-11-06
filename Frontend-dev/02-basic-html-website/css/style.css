@@ -14,12 +14,17 @@ header {
     position: sticky;
     top: 0;
     padding: 1rem;
-    margin-bottom: 2rem;
     background-color: rgb(255, 255, 105);
     border: 2px solid;
     border-radius: 1rem;
     justify-content: space-between;
     align-items:center;
+}
+
+article.columns {
+    columns: 4 300px;
+    column-rule: 3px solid #333;
+    margin-bottom: 2rem;
 }
 
 main {
@@ -28,7 +33,7 @@ main {
 
 .job {
     font-size: 2.5rem;
-    margin-bottom: 2rem;
+    margin: 8rem;
     text-align: center;
 }
 
